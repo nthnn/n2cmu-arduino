@@ -15,9 +15,22 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+/**
+ * @file N2CMU_Commands.h
+ * @author [Nathanne Isip](https://github.com/nthnn)
+ * @brief Header file defining the command constants for communication with N2CMU (Neural Network Coprocessing Microcontroller Unit).
+ *
+ * This header file contains an enumeration of command constants used for communication between the main microcontroller
+ * and the N2CMU device. These commands are used to perform various operations such as initializing the network, training,
+ * inference, setting parameters, and retrieving network information.
+ */
+
 #ifndef N2CMU_COMMANDS_H
 #define N2CMU_COMMANDS_H
 
+/**
+ * @brief Enumeration defining command constants for N2CMU communication.
+ */
 typedef enum {
   N2CMU_PROC_HANDSHAKE = 0x00,  ///< Command constant for the N2CMU handshake signal.
   N2CMU_PROC_CPU_RESET = 0x01,  ///< Constant for resetting the CPU.
