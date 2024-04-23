@@ -1,0 +1,20 @@
+{
+    "name": "n2cmu-arduino",
+    "version": "0.0.1",
+    "description": "Feedforward Neural Network Coprocessing Microcontroller Unit (CPC via UART) for STM32F103C8T6 Bluepill Development Board written purely in TinyGo.",
+    "keywords": ["ANN", "Artificial Neural Network", "microcontrollers", "Arduino", "UNO", "Mega", "ESP8266", "ESP32", "RP2040"],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nthnn/n2cmu-arduino"
+    },
+    "authors": [
+      {
+        "name": "nathannestein",
+        "email": "nathanneisip@gmail.com",
+        "url": "https://nthnn.github.io/"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/nthnn/diwa",
+    "frameworks": "*"
+}
