@@ -1,7 +1,7 @@
 {
     "name": "n2cmu-arduino",
     "version": "0.0.2",
-    "description": "Feedforward Neural Network Coprocessing Microcontroller Unit (CPC via UART) for STM32F103C8T6 Bluepill Development Board written purely in TinyGo.",
+    "description": "This is the official Arduino library for N2CMU (Neural Network Coprocessing Microcontroller Unit) available on Arduino Package Manager and PlatformIO.",
     "keywords": ["ANN", "Artificial Neural Network", "microcontrollers", "Arduino", "UNO", "Mega", "ESP8266", "ESP32", "RP2040"],
     "repository": {
       "type": "git",
