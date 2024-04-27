@@ -1,6 +1,6 @@
 # N2CMU Arduino Library
 
-![Arduino CI](https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_build.yml/badge.svg) ![Arduino Lint](https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_lint.yml/badge.svg)
+![Arduino CI](https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_build.yml/badge.svg) ![Arduino Lint](https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_lint.yml/badge.svg) ![Spellcheck CI](https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_spellcheck.yml/badge.svg)
 ![Arduino Release](https://img.shields.io/badge/Library%20Manager-0.0.2-red?logo=Arduino)
 [![License: GNU GPL v3.0](https://img.shields.io/badge/License-GNU%20GPL%20v3.0-yellow.svg)](https://github.com/nthnn/SIM900/blob/main/LICENSE)
 
