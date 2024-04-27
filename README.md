@@ -101,6 +101,10 @@ void loop() {
 }
 ```
 
+## PCB Schematic Diagram
+
+![Arduino N2CMU Shield Schematic Diagram](pcb/n2cmu-shield-schematics.png)
+
 ## License
 
 Copyright (c) 2024 Nathanne Isip
