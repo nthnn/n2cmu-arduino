@@ -52,7 +52,7 @@ void setup() {
 
     // Reset the CPU
     if(coprocessor.cpuReset())
-        Serial.println(F("CPU Resetted!"));
+        Serial.println(F("CPU Reset!"));
     else {
         Serial.println(F("Something went wrong. Halting..."));
         while(true);
@@ -88,7 +88,7 @@ void setup() {
             Serial.print(F("]: "));
             Serial.println(output[0]);
         }
-        else Serial.println(F("Inference attemp failed."));
+        else Serial.println(F("Inference attempt failed."));
     }
 
     // Reset the network
