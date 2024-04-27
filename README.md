@@ -6,6 +6,10 @@
 
 This is the official Arduino library for [N2CMU](https://github.com/nthnn/n2cmu) (Neural Network Coprocessing Microcontroller Unit).
 
+<p align="center">
+    <img src="pcb/n2cmu-shield.png" alt="Arduino N2CMU Shield" />
+</p>
+
 ## Getting Started
 
 To start using `n2cmu-arduino` library in your Arduino projects, follow these simple steps:
