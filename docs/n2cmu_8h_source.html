@@ -208,9 +208,15 @@ $(document).ready(function(){initNavTree('n2cmu_8h_source.html',''); initResizab
 <div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classN2Coprocessor.html#a997759257093cca965dcaa24cb8ea957">getHiddenGradient</a>(<span class="keywordtype">float</span>* hiddenGrad);</div>
 <div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span> </div>
 <div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classN2Coprocessor.html#ae5499645aab2d9305660fdd0762832cb">getOutputGradient</a>(<span class="keywordtype">float</span>* outputGrad);</div>
-<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span>};</div>
-<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span> </div>
-<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00531" name="l00531"></a><span class="lineno">  531</span> </div>
+<div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    <span class="comment">// Not yet implemented.</span></div>
+<div class="line"><a id="l00533" name="l00533"></a><span class="lineno">  533</span>    <span class="keywordtype">void</span> loadFromFile(<span class="keyword">const</span> <span class="keywordtype">char</span> *modelFilename);</div>
+<div class="line"><a id="l00534" name="l00534"></a><span class="lineno">  534</span> </div>
+<div class="line"><a id="l00535" name="l00535"></a><span class="lineno">  535</span>    <span class="comment">// Not yet implemented.</span></div>
+<div class="line"><a id="l00536" name="l00536"></a><span class="lineno">  536</span>    <span class="keywordtype">void</span> saveToFile(<span class="keyword">const</span> <span class="keywordtype">char</span>* modelFilename);</div>
+<div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>};</div>
+<div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span> </div>
+<div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassN2Coprocessor_html"><div class="ttname"><a href="classN2Coprocessor.html">N2Coprocessor</a></div><div class="ttdoc">Class representing the N2CMU device.</div><div class="ttdef"><b>Definition:</b> n2cmu.h:47</div></div>
 <div class="ttc" id="aclassN2Coprocessor_html_a05fe20c4b0203a506f2721f2507232b2"><div class="ttname"><a href="classN2Coprocessor.html#a05fe20c4b0203a506f2721f2507232b2">N2Coprocessor::setHiddenCount</a></div><div class="ttdeci">void setHiddenCount(uint8_t hiddenCount)</div><div class="ttdoc">Set the number of hidden neurons.</div><div class="ttdef"><b>Definition:</b> n2cmu.cpp:178</div></div>
 <div class="ttc" id="aclassN2Coprocessor_html_a0743692b6d1abe21198b3a1fd2704e55"><div class="ttname"><a href="classN2Coprocessor.html#a0743692b6d1abe21198b3a1fd2704e55">N2Coprocessor::infer</a></div><div class="ttdeci">bool infer(float *input, float *output)</div><div class="ttdoc">Make inference with the neural network using provided input data.</div><div class="ttdef"><b>Definition:</b> n2cmu.cpp:146</div></div>

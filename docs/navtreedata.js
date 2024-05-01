@@ -28,7 +28,8 @@ var NAVTREE =
     [ "N2CMU Arduino Library", "index.html", [
       [ "Getting Started", "index.html#autotoc_md1", null ],
       [ "Example Usage", "index.html#autotoc_md2", null ],
-      [ "License", "index.html#autotoc_md3", null ]
+      [ "PCB Schematic Diagram", "index.html#autotoc_md3", null ],
+      [ "License", "index.html#autotoc_md4", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

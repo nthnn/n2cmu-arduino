@@ -86,8 +86,10 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
   <div class="headertitle"><div class="title">N2CMU Arduino Library </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_README"></a> <img src="https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_build.yml/badge.svg" alt="Arduino CI" style="pointer-events: none;" class="inline"/> <img src="https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_lint.yml/badge.svg" alt="Arduino Lint" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/Library%20Manager-0.0.2-red?logo=Arduino" alt="Arduino Release" class="inline"/> <a href="https://github.com/nthnn/SIM900/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GNU%20GPL%20v3.0-yellow.svg" alt="License: GNU GPL v3.0" style="pointer-events: none;" class="inline"/></a></p>
+<div class="textblock"><p ><a class="anchor" id="md_README"></a> <img src="https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_build.yml/badge.svg" alt="Arduino CI" style="pointer-events: none;" class="inline"/> <img src="https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_lint.yml/badge.svg" alt="Arduino Lint" style="pointer-events: none;" class="inline"/> <img src="https://github.com/nthnn/n2cmu-arduino/actions/workflows/ci_spellcheck.yml/badge.svg" alt="Spellcheck CI" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/Library%20Manager-0.0.3-red?logo=Arduino" alt="Arduino Release" class="inline"/> <a href="https://github.com/nthnn/SIM900/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GNU%20GPL%20v3.0-yellow.svg" alt="License: GNU GPL v3.0" style="pointer-events: none;" class="inline"/></a></p>
 <p >This is the official Arduino library for <a href="https://github.com/nthnn/n2cmu">N2CMU</a> (Neural Network Coprocessing Microcontroller Unit).</p>
+<p  align="center"></p>
+<p ><img src="pcb/n2cmu-shield.png" alt="Arduino N2CMU Shield" class="inline"/> </p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Getting Started</h1>
 <p >To start using <code>n2cmu-arduino</code> library in your Arduino projects, follow these simple steps:</p>
@@ -128,7 +130,7 @@ Example Usage</h1>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Reset the CPU</span></div>
 <div class="line">    <span class="keywordflow">if</span>(coprocessor.<a class="code hl_function" href="classN2Coprocessor.html#a20ffb35de79237214ed89c2c6fd2c8ec">cpuReset</a>())</div>
-<div class="line">        Serial.println(F(<span class="stringliteral">&quot;CPU Resetted!&quot;</span>));</div>
+<div class="line">        Serial.println(F(<span class="stringliteral">&quot;CPU Reset!&quot;</span>));</div>
 <div class="line">    <span class="keywordflow">else</span> {</div>
 <div class="line">        Serial.println(F(<span class="stringliteral">&quot;Something went wrong. Halting...&quot;</span>));</div>
 <div class="line">        <span class="keywordflow">while</span>(<span class="keyword">true</span>);</div>
@@ -164,7 +166,7 @@ Example Usage</h1>
 <div class="line">            Serial.print(F(<span class="stringliteral">&quot;]: &quot;</span>));</div>
 <div class="line">            Serial.println(output[0]);</div>
 <div class="line">        }</div>
-<div class="line">        <span class="keywordflow">else</span> Serial.println(F(<span class="stringliteral">&quot;Inference attemp failed.&quot;</span>));</div>
+<div class="line">        <span class="keywordflow">else</span> Serial.println(F(<span class="stringliteral">&quot;Inference attempt failed.&quot;</span>));</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Reset the network</span></div>
@@ -185,6 +187,9 @@ Example Usage</h1>
 <div class="ttc" id="aclassN2Coprocessor_html_ac0a0150730ec3242768fc016630410f7"><div class="ttname"><a href="classN2Coprocessor.html#ac0a0150730ec3242768fc016630410f7">N2Coprocessor::resetNetwork</a></div><div class="ttdeci">void resetNetwork()</div><div class="ttdoc">Reset the neural network parameters.</div><div class="ttdef"><b>Definition:</b> n2cmu.cpp:160</div></div>
 <div class="ttc" id="an2cmu_8h_html"><div class="ttname"><a href="n2cmu_8h.html">n2cmu.h</a></div><div class="ttdoc">Header file for N2CMU (Neural Network Coprocessing Microcontroller Unit).</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+PCB Schematic Diagram</h1>
+<p ><img src="pcb/n2cmu-shield-schematics.png" alt="Arduino N2CMU Shield Schematic Diagram" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md4"></a>
 License</h1>
 <p >Copyright (c) 2024 Nathanne Isip</p>
 <p ><code>n2cmu-arduino</code> is distributed under the GNU General Public License v3.0. For further details, refer to the LICENSE file.</p>
