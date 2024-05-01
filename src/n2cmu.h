@@ -528,6 +528,12 @@ public:
      * @param outputGrad Array to store output neuron gradients.
      */
     void getOutputGradient(float* outputGrad);
+
+    // Not yet implemented.
+    void loadFromFile(const char *modelFilename);
+
+    // Not yet implemented.
+    void saveToFile(const char* modelFilename);
 };
 
 #endif
