@@ -1,6 +1,6 @@
 {
     "name": "n2cmu-arduino",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "This is the official Arduino library for N2CMU (Neural Network Coprocessing Microcontroller Unit) available on Arduino Package Manager and PlatformIO.",
     "keywords": ["ANN", "Artificial Neural Network", "microcontrollers", "Arduino", "UNO", "Mega", "ESP8266", "ESP32", "RP2040"],
     "repository": {
