@@ -102,6 +102,10 @@ void loop() {
 }
 ```
 
+
+https://github.com/nthnn/n2cmu-arduino/assets/90981832/8044985a-2b62-48d9-8797-0b0c56620a52
+
+
 ## PCB Schematic Diagram
 
 ![Arduino N2CMU Shield Schematic Diagram](pcb/n2cmu-shield-schematics.png)
